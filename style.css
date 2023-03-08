@@ -1,0 +1,86 @@
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+			color: #333;
+		}
+
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+
+		nav {
+			background-color: #666;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+		}
+
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		nav li {
+			display: inline-block;
+			margin: 0 10px;
+		}
+
+		nav a {
+			color: #fff;
+			text-decoration: none;
+			padding: 5px 10px;
+			border-radius: 5px;
+			transition: background-color 0.3s ease;
+		}
+
+		nav a:hover {
+			background-color: #999;
+		}
+
+		main {
+			margin: 20px;
+		}
+
+		h1 {
+			font-size: 2em;
+			margin-bottom: 10px;
+		}
+
+		h2 {
+			font-size: 1.5em;
+			margin-bottom: 10px;
+		}
+
+		p {
+			line-height: 1.5;
+			margin-bottom: 10px;
+		}
+
+		li {
+			display: flex;
+			align-items: center;
+			margin-bottom: 20px;
+		  }
+		  
+		  .info {
+			flex: 1;
+		  }
+		  
+		  img {
+			width: 100px;
+			height: auto;
+			margin-left: 20px;
+		  }
+		  En el CSS, se utiliza la propiedad "display: flex" en los elementos de la lista (li) para que se muestren en una fila horizontal. Además, se utiliza la propiedad "align-items: center" para alinear verticalmente los elementos. La clase "info" se utiliza para definir el ancho del espacio que ocupa el texto y se le asigna el valor "flex: 1". Por otro lado, la etiqueta "img" se configura con un ancho fijo de 100 píxeles y se le asigna un margen izquierdo de 20 píxeles para separarlo del texto.
+		  
+		  Con estas modificaciones, los logos se presentarán a la derecha de cada lista y el texto se ajust
+		  
+		  
+		  
+		  
+	</style>
